@@ -58,6 +58,7 @@ postSchema.index({
     title: "text",
     content: "text",
 });
+//mongodb+srv://sachixl300:#sachi@123#@sachipatel.5hep5xp.mongodb.net/?appName=sachipatel
 //694b827258fe064315cc8e07 user id
 //694ced2ca8553196fbaa1b67 post id
 //user 1 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5NTYyOGUwMWViMWMxZTE3YjFjYmE0YiIsImlhdCI6MTc2NzkzOTkwOCwiZXhwIjoxNzY4NTQ0NzA4fQ.l01uEGzaPpx8eSfNG2rxMyrYs_EN6Pf053Xul4qYW4A

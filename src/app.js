@@ -1,6 +1,6 @@
 import express from 'express';
-import dotenv from 'dotenv';
-dotenv.config();
+// import dotenv from 'dotenv';
+// dotenv.config();
 import cors from 'cors';
 import authRoutes from './routes/auth.routes.js';
 import postRoutes from "./routes/post.routes.js";
@@ -15,7 +15,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL,
+    origin: "*",
     credentials: true,
   })
 );
