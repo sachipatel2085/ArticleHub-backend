@@ -77,7 +77,7 @@ router.post(
 router.post("/:id/react", protect, reactToPost);
 router.put("/:id", protect, allowRoles("admin", "author"), updatepost);
 router.delete("/:id", protect, allowRoles("admin", "author"), deletePost);
-router.put("/:id/publish", blockRestrictedAuthor, protect, allowRoles("admin", "author"), togglePublish);
+router.put("/:id/publish", protect, blockRestrictedAuthor, allowRoles("admin", "author"), togglePublish);
 
 
 export default router;
