@@ -16,6 +16,7 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:3000",
+  "https://articlehub.vercel.app",
   "https://sachipatel-article-hub-frontend.vercel.app"
 ];
 
